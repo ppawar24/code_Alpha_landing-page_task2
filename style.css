@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#Home{
+    width:100%px;
+    height:800px;
+    /* background-color: rgba(244, 160, 6, 0.922); */
+}
+.upper{
+    background-image:url(Images/design.png);
+    width:100%;
+    height: 600px;
+    background-size: cover;
+    /* padding-left: 30px;
+    padding-right: 30px; */
+    justify-content: right;
+}
+.upper .dis{
+    height: 500px;
+    width: 35%;
+    float:right;
+    padding-left: 80px;
+    justify-content: right;
+}
+.upper .dis p{
+    color: black;
+    font-size: 45px;
+    font-weight: bolder;
+    word-spacing: 3px;
+}
+.upper .dis p span{
+    font-size:large;
+    margin-left: 300px;
+}
+.coll{
+    height: 50px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.341);
+}
+.coll button{
+    background-color:#f88921;
+    border-radius: 8px;
+    border-style: none;
+    padding: 5px;
+    margin: 11px;
+    margin-left: 40px;
+}
+.coll button:hover{
+    background-color: black;
+}
+.coll button a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+.coll button a:hover{
+    color: #f88921;
+}
+#lower{
+    height: 200px;
+    width: 100%;
+    background-color:#f88921;
+    justify-content: center;
+    text-align: center;   
+}
+#lower form input{
+    padding: 15px;
+    width: 400px;
+    border-radius: 8px; 
+}
+#lower button{
+    width: 430px;
+    padding: 15px;
+    background-color:black;
+    border-radius: 8px;
+}
+#lower button a{
+    text-decoration: none;
+    color: #f88921;
+    font-size: larger;
+}
